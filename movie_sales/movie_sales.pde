@@ -7,11 +7,18 @@
  */
  
 void setup() {
-  String movie1title = "Avtar";
-  int movie1Sale = 278796508;
+      
+      int movie1Sale = 2700;
+    String movie1title = "Avtar";
+     
+     println(movie1title);
+     
+      if(movie1Sale > 100){
+       println("This is a blockbuster movie!!");
+     }else{
+       println("This movie is not very popular.");
+     }
   
-  println(movie1title);
-  println(movie1Sale);
   
 }
 
