@@ -8,9 +8,10 @@
  
 void setup() {
   String movie1title = "Avtar";
-  String movie2title = "Titanic";
+  int movie1Sale = 278796508;
+  
 
-
+  
 }
 
 void draw() {
