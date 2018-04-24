@@ -10,7 +10,8 @@ void setup() {
   String movie1title = "Avtar";
   int movie1Sale = 278796508;
   
-
+  println(movie1title);
+  println(movie1Sale);
   
 }
 
