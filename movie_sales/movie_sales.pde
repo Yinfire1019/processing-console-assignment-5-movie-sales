@@ -10,6 +10,8 @@ void setup() {
       
       int movie1Sale = 2700;
     String movie1title = "Avtar";
+      
+      
      
      println(movie1title);
      
@@ -18,9 +20,20 @@ void setup() {
      }else{
        println("This movie is not very popular.");
      }
-  
-  
-}
+     
+     println("Are you interested in seeing this movie?");
+     
+  String movie1[] = loadStrings("film.txt");
+      if(movie1[0].equals("Yes")){
+        println ("The movie will start at 9:00 pm");
+      }else{
+        println("Here is a coupon");
+       println(" Here is a special offer to encourage you to attend ");
+       println(
+    }}
+      
+      
+{}
 
 void draw() {
 
